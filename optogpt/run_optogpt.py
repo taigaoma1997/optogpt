@@ -56,10 +56,10 @@ if __name__ == '__main__':
     args.save_name += '_' + args.spec_type
     args.save_name += '_S_R_B_LR_WU_L_H_D_F_'+str(temp)
 
-    TRAIN_FILE = './dataset/Structure_trial_0.pkl'   
-    TRAIN_SPEC_FILE = './dataset/Spectrum_trial_0.pkl'  
-    DEV_FILE = './dataset/Structure_trial_1.pkl'   
-    DEV_SPEC_FILE = './dataset/Spectrum_trial_1.pkl'  
+    TRAIN_FILE = './dataset/Structure_train.pkl'   
+    TRAIN_SPEC_FILE = './dataset/Spectrum_train.pkl'  
+    DEV_FILE = './dataset/Structure_dev.pkl'   
+    DEV_SPEC_FILE = './dataset/Spectrum_dev.pkl'  
 
     args.TRAIN_FILE, args.TRAIN_SPEC_FILE, args.DEV_FILE, args.DEV_SPEC_FILE = TRAIN_FILE, TRAIN_SPEC_FILE, DEV_FILE, DEV_SPEC_FILE
 
