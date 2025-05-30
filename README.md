@@ -1,1 +1,2 @@
-# Welcome to the OptoGPT: a foundation model for multilayer thin film inverse design
+# Welcome to the OptoGPT
+## A foundation model for multilayer thin film inverse design
