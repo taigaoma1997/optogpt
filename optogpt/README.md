@@ -49,6 +49,10 @@ Please download our dataset and place it into this folder: https://huggingface.c
 
 Then run data_conversion.ipynb to convert the .csv file to .pkl used for our loading function. 
 
+## Model 
+
+Please download our trained model here: https://huggingface.co/mataigao/optogpt
+
 ## Usage
 To run the main training script:
 ~~~
